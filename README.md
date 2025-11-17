@@ -3,7 +3,10 @@
 _End-to-end ML project — cardiovascular disease risk prediction with Flask API, Docker, cloud deployment, and Streamlit frontend._
 
 - 🚀 **Deployed API:** https://cvd-detector-main-v2.fly.dev/
+     <img width="912" height="810" alt="image" src="https://github.com/user-attachments/assets/4b671c41-655c-460f-a4f0-2a35270fc015" />
+
 - 🌐 **Streamlit Web App:** https://cvd-streamlit-app.fly.dev/
+    <img width="1547" height="800" alt="image" src="https://github.com/user-attachments/assets/9ff5837d-d28a-42a5-8f9f-4592d17809a2" />
 
 ---
 
@@ -209,6 +212,9 @@ Metrics used:
 - **Secondary:** Accuracy, Precision, Recall, F1-Score
 
 ### 4.3 Final Model Choice
+
+<img width="970" height="487" alt="image" src="https://github.com/user-attachments/assets/5186469f-5ad7-4594-a9c4-9f3bd3dc474b" />
+
 
 Example final comparison (numbers approximated here for README):
 
@@ -483,25 +489,7 @@ Make sure the `API_URL` in `app.py` points either to your local API (e.g. `http:
 
 ---
 
-## 10. Reproducibility Checklist 
-
-This project ML evaluation criteria:
-
-- **Problem description:** explained clearly above and in this README.
-- **EDA:** performed extensively in `notebook.ipynb` with plots and feature analysis.
-- **Model training:** multiple models tried, metrics compared, hyperparameters tuned.
-- **Exporting notebook to script:** training logic extracted to `scripts/train.py`.
-- **Reproducibility:** `cardio_train.csv` path and instructions are documented; scripts can be re-run.
-- **Model deployment:** Flask web service in `predict.py` + `gunicorn`.
-- **Dependency management:** `requirements.txt` and virtual env usage explained.
-- **Containerization:** Dockerfile provided, instructions to build/run.
-- **Cloud deployment:** Fly.io config, deployed URL, and usage shown.
-
-Total possible score according to rubric: **16/16** (if peer reviewers verify everything).
-
----
-
-## 11. Limitations and Future Work
+## 10. Limitations and Future Work
 
 - The model is only as good as the Kaggle dataset (no real hospital deployment or calibration).
 - No fairness analysis across demographic subgroups.
@@ -516,14 +504,14 @@ Total possible score according to rubric: **16/16** (if peer reviewers verify ev
 
 ---
 
-## 12. Disclaimer
+## 11. Disclaimer
 
 > This application is for **educational purposes only**.  
 > It is **not** a medical device and must **not** be used for real clinical decision-making.
 
 ---
 
-## 13. Contact
+## 12. Contact
 
 Project author: **Jacinto Jimenez**
 
