@@ -483,9 +483,9 @@ Make sure the `API_URL` in `app.py` points either to your local API (e.g. `http:
 
 ---
 
-## 10. Reproducibility Checklist (Zoomcamp)
+## 10. Reproducibility Checklist 
 
-This project meets the ML Zoomcamp evaluation criteria:
+This project ML evaluation criteria:
 
 - **Problem description:** explained clearly above and in this README.
 - **EDA:** performed extensively in `notebook.ipynb` with plots and feature analysis.
